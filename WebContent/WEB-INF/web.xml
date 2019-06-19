@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Shopping</display-name>
+  <welcome-file-list>
+    <welcome-file>Product.html</welcome-file>
+  </welcome-file-list>
+  <context-param>
+  <param-name>ofm</param-name>
+  <param-value>Winter Season sale</param-value>
+  </context-param>
+  <context-param>
+  <param-name>ofp</param-name>
+  <param-value>30</param-value>
+  </context-param>
+  <context-param>
+  <param-name>ofms</param-name>
+  <param-value>Winter Season sale</param-value>
+  </context-param>
+  <context-param>
+  <param-name>ofpd</param-name>
+  <param-value>50</param-value>
+  </context-param>
+  <context-param>
+  <param-name>ofmsg</param-name>
+  <param-value>Winter Season sale</param-value>
+  </context-param>
+  <context-param>
+  <param-name>ofpds</param-name>
+  <param-value>40</param-value>
+  </context-param>
+</web-app>
